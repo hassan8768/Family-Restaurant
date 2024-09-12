@@ -1,0 +1,196 @@
+body {
+    background-color: rgba(0, 0, 0, 0.869);
+}
+
+/* تنسيق التنقل */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    /* لضبط الشعار واسم المطعم لليسار */
+}
+
+.logo {
+    width: 50px;
+    /* حجم الشعار */
+    height: auto;
+    margin-right: 15px;
+    /* المسافة بين الشعار واسم المطعم */
+}
+
+.restaurant-name {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*  نهاية تنسيق nav */
+
+/* تنسيق القسم الرئيسي للتواصل */
+#contact-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    /* لون خلفية فاتح */
+    font-family: Arial, sans-serif;
+    /* تعيين خط أساسي */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* المسافة بين العمودين */
+}
+
+/* تنسيق معلومات التواصل على اليسار */
+.contact-info {
+    width: 50%;
+    /* عرض القسم الأيسر 50% */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* إضافة ظل */
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    /* خط سفلي تحت العنوان */
+    padding-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.contact-info p strong {
+    color: #333;
+    font-weight: bold;
+}
+
+/* تنسيق النص داخل قسم التفاصيل */
+.contact-details {
+    width: 50%;
+    /* عرض قسم التفاصيل 50% */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* إضافة ظل */
+}
+
+.contact-details h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    /* خط سفلي تحت العنوان */
+    padding-bottom: 10px;
+}
+
+.contact-details p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* تنسيق النموذج في الجزء الأيمن */
+aside.aside {
+    width: 50%;
+    /* عرض القسم الأيمن 50% */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* إضافة ظل */
+}
+
+aside.aside form {
+    display: flex;
+    flex-direction: column;
+}
+
+aside.aside input,
+aside.aside textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+    /* لون النص في الحقول */
+}
+
+aside.aside button {
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* جعل النص في الزر كله بأحرف كبيرة */
+}
+
+aside.aside button:hover {
+    background-color: #575757;
+}
+
+/* تنسيق الفوتر */
+#footer {
+    font-size: 14px;
+    font-weight: 900;
+    background: #13131e;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}

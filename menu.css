@@ -1,0 +1,107 @@
+/* تنسيق التنقل */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    /* لضبط الشعار واسم المطعم لليسار */
+}
+
+.logo {
+    width: 50px;
+    /* حجم الشعار */
+    height: auto;
+    margin-right: 15px;
+    /* المسافة بين الشعار واسم المطعم */
+}
+
+.restaurant-name {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* تنسيق الجدول بشكل عام */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /*  تدمج حدود الجدول */
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* تنسيق عناوين الأعمدة */
+thead th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* تنسيق جسم الجدول */
+tbody td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* لون الصفوف البديلة */
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+/* تنسيق قسم العناوين الداخلية */
+tbody tr td[colspan="4"] {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* تنسيق الصفوف عند التمرير */
+tbody tr:hover {
+    background-color: #f1f1f1;
+
+}
+
+
+
+/*    إضافة هوامش اسفل القائمه*/
+table {
+    margin-bottom: 40px;
+}
+
+/* إضافة ظل للجدول */
+table {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
